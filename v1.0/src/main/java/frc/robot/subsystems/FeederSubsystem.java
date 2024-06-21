@@ -6,7 +6,7 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 import frc.robot.Constants;
 
 public class FeederSubsystem extends SubsystemBase {
-    private final WPI_VictorSPX feederMotor = new WPI_VictorSPX(Constants.FeedMotor);
+    private final WPI_VictorSPX feederMotor = new WPI_VictorSPX(Constants.FeedMotorID);
 
     public FeederSubsystem() {
         feederMotor.configFactoryDefault();

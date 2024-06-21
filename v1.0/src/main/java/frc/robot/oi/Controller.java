@@ -8,9 +8,9 @@ import edu.wpi.first.wpilibj2.command.button.Trigger;
 
 import java.util.function.BooleanSupplier;
 
-import static frc.robot.Constants.DEADZONE_VALUE;
-
+@SuppressWarnings("unused")
 public class Controller {
+    private static final double DEADZONE_VALUE = 0.01;
     private static final int NUM_BUTTONS = 10;
     private static final int NUM_POV_BUTTONS = 4;
     private static final int NUM_SPECIAL_BUTTONS = 2;

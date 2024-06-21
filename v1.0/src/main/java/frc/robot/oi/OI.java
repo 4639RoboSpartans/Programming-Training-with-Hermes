@@ -4,6 +4,7 @@ import edu.wpi.first.wpilibj2.command.button.Trigger;
 
 import java.util.function.BooleanSupplier;
 
+@SuppressWarnings("unused")
 public class OI {
     // Only one instance of OI can exist at a time, and it should be accessible from
     // anywhere using getInstance()
